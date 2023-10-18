@@ -4,6 +4,7 @@ import cv2
 import numpy as np
 from keras.models import load_model
 
+
 def app():
     
 
@@ -77,5 +78,7 @@ def app():
                     st.write("Error processing the image.")
         else:
             st.write("Error: Unable to read the image. Please upload a valid image.")
+    
+    
     
     
