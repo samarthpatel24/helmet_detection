@@ -18,3 +18,14 @@ def app():
     st.write("<h3>Objectives:</h3>",unsafe_allow_html=True)
     st.write("Earlier, various researchers have applied traditional image processing methods for feature extraction for detecting helmets. Nowadays, we have been introduced to a new and upcoming technology known as Deep Learning. In the field of computer vision, deep learning can be implemented with the help of Convolutional Neural Networks (CNN). CNN along with a quality dataset can be tuned optimally in order to create a well-structured ‘Helmet Detection’ Model. Automatic feature extraction with the help of CNN will help boost the accuracy of model. ")
     st.write("This project primarily aims to ensure safety of motorcyclists by detecting whether they are wearing a helmet or not.  Detecting the absence of helmets helps reduce the risk of head injuries which can lead to extreme consequences. In addition to this, our project also aims to the streamline surveillance process. When a helmet is not detected on a rider, an alert or notification can be triggered and this information can be sent to the rule-enforcing authorities. By promoting safety and alleviating human errors, our model can create a safer environment on the roads with the help of CNN.")
+
+     # adding images
+    col1, col2 ,col3 = st.columns([15,1,15])
+
+    with col1:
+        st.image("1.jpeg", caption='Image 1 Caption', use_column_width=True)
+        
+
+    # Add the second image in the second column
+    with col3:
+        st.image("2.jpeg", caption='Image 2 Caption', use_column_width=True)
