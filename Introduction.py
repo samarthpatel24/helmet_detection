@@ -9,7 +9,7 @@ import main
 def app():
     st.markdown('# Helmet Detection with CNN')
     st.markdown("----")
-    st.markdown('<h2>Introduction</h2>', unsafe_allow_html=True)
+    st.markdown('<h2>About</h2>', unsafe_allow_html=True)
 
     st.write("<h3>Motivation:</h3>",unsafe_allow_html=True)
     st.write("Assuring safety in various situations has become a top priority in today's technological environment which is continually expanding. In the past couple of years, there has been a significant amount of injuries and deaths of motorcyclists due to non-wearing of helmets. In order to reduce these road accidents, the detection of helmetless motorcycles is essential. Wearing of helmets is a crucial in abiding traffic rules and regulations. In spite of these orders, a massive number of motorcycles still do not adhere to these rules. ")
