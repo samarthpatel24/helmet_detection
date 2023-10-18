@@ -27,7 +27,7 @@ class MultiApp:
         with st.sidebar:        
             app = option_menu(
                 menu_title='Main Menu ',
-                options=['Introduction','Helmet Detection','Contact'],
+                options=['About','Helmet Detection','Contact'],
                 icons=['house-fill','chat-fill','person-circle'],
                 menu_icon='chat-text-fill',
                 default_index=1,
@@ -39,7 +39,7 @@ class MultiApp:
                 
             )
         
-        if app == "Introduction":
+        if app == "About":
             Introduction.app()
         if app == "Helmet Detection":
             Helmet_Detection.app()    
