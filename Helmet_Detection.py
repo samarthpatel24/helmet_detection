@@ -21,7 +21,7 @@ def app():
     def preprocess_image(image):
         try:
             img = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-            img = cv2.resize(img, (64, 64))
+            img = cv2.resize(img, (128, 128))
             img = img / 255.0  # Normalize the image
             img = np.expand_dims(img, axis=0)  # Add a batch dimension
             return img
