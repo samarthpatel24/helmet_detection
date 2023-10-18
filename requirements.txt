@@ -1,0 +1,7 @@
+opencv-python
+opencv-python-headless
+opencv-contrib-python-headless
+numpy
+keras
+tensorflow
+streamlit_option_menu
