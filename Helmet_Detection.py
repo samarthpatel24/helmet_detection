@@ -52,7 +52,7 @@ def app():
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg"])
 
     
-    model_path = 'helmet_detection_model (5).h5'  # model
+    model_path = 'helmet_detection_model.h5'  # model
     if 'model' not in st.session_state:
         st.session_state.model = load_cnn_model(model_path)
 
