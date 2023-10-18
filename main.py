@@ -1,6 +1,8 @@
 import streamlit as st 
 from streamlit_option_menu import option_menu
 import  Introduction, contact,Helmet_Detection
+from toast_messeges import get_random_toast
+
 
 st.set_page_config(
     page_title="Helmet Detection",
@@ -31,10 +33,10 @@ class MultiApp:
                 menu_icon='chat-text-fill',
                 default_index=1,
                 styles={
-                    "container": {"padding": "5!important","background-color":'black'},
+                    "container": {"padding": "5!important","background-color":'#0E1117'},
         "icon": {"color": "white", "font-size": "23px"}, 
-        "nav-link": {"color":"white","font-size": "20px", "text-align": "left", "margin":"0px", "--hover-color": "blue"},
-        "nav-link-selected": {"background-color": "#02ab21"},}
+        "nav-link": {"color":"white","font-size": "20px", "text-align": "left", "margin":"0px", "--hover-color": "#FFCCCB"},
+        "nav-link-selected": {"background-color": "#ff4b4b"},}
                 
             )
         
@@ -46,5 +48,4 @@ class MultiApp:
             contact.app()
 
     run()
-
              
