@@ -27,7 +27,7 @@ class MultiApp:
             app = option_menu(
                 menu_title='Main Menu ',
                 options=['About','Helmet Detection','Contact'],
-                icons=['house-fill','chat-fill','person-circle'],
+                icons=['info-circle-fill','chat-fill','person-circle'],
                 menu_icon='chat-text-fill',
                 default_index=1,
                 styles={
