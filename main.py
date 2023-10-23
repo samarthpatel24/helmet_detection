@@ -1,12 +1,12 @@
 import streamlit as st 
 from streamlit_option_menu import option_menu
-import  Introduction, contact,Helmet_Detection
+import  About, contact,Helmet_Detection
 
 
 st.set_page_config(
     page_title="Helmet Detection",
     page_icon="🪖",
-    layout="wide",
+    initial_sidebar_state="expanded"
 )
 
 class MultiApp:
@@ -39,7 +39,7 @@ class MultiApp:
             )
         
         if app == "About":
-            Introduction.app()
+            About.app()
         if app == "Helmet Detection":
             Helmet_Detection.app()    
         if app == "Contact":
